@@ -1,0 +1,108 @@
+
+* {
+    margin: 0px;
+}
+.nav-hero {
+    background-color: #1F2937;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 40px;
+    padding: 12px;
+}
+
+h2 {
+    margin-right: auto;
+    padding-left: 18px;
+    font-size: 24px;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero-text {
+    width: 200px;
+    padding: 20px;
+}
+
+.hero-text > p {
+    letter-spacing: 0.5px;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 4px 16px 4px 16px;
+    border-radius: 5px;
+}
+
+img {
+    width: 200px;
+    height: 180px;
+    background-color: azure;
+}
+
+.body {
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    padding-top: 0px;
+    margin: 0px 40px;
+    
+}
+
+.sqr {
+    border: 2px solid #3882F6;
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.sq-cont {
+    font-size: 10px;
+    padding: 6px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 40px 60px;
+    color: #1F2937;
+}
+
+.quoter {
+    text-align: right;
+    font-weight: bold;
+}
+
+.call-to-action-cont {
+    background-color: #3882F6;
+    margin: 20px 40px;
+    color: white;
+    display: flex;
+    text-align: left;
+    padding: 12px 30px;
+    justify-content: space-between;
+}
+
+.call-to-action-cont > button {
+    border: 1px solid white
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+    
+}
